@@ -4,4 +4,4 @@
 
 **Курс**: Веб для начинающий *(09.2017)*
 
-**Демо**: https://alexanderkositsyn.github.io/alex_pages/
+**Демо**: https://alexanderkositsyn.github.io/coworking/
