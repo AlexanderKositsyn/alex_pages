@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('/coworking/fonts/GothamPro-Bold.woff2');
-    src: url('/coworking/fonts/GothamPro-Bold.woff') format('woff');
+    src: url('/fonts/GothamPro-Bold.woff2');
+    src: url('/fonts/GothamPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('/coworking/fonts/GothamPro-Light.woff2');
-    src: url('/coworking/fonts/GothamPro-Light.woff') format('woff');
+    src: url('/fonts/GothamPro-Light.woff2');
+    src: url('/fonts/GothamPro-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('/coworking/fonts/GothamPro-LightItalic.woff2');
-    src: url('/coworking/fonts/GothamPro-LightItalic.woff') format('woff');
+    src: url('/fonts/GothamPro-LightItalic.woff2');
+    src: url('/fonts/GothamPro-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/coworking/fonts/OpenSans-Bold.woff2') format('woff2'), url('OpenSans-Bold.woff') format('woff');
+    src: url('/fonts/OpenSans-Bold.woff2') format('woff2'), url('OpenSans-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -36,7 +36,6 @@
 
 .header {
     width: 100%;
-    height: 76px;
     background: #27273e;
 }
 
@@ -55,7 +54,7 @@
 }
 
 .header-contacts__phone {
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro", sans-serif;
     font-weight: bold;
     font-style: normal;
     color: #ffffff;
@@ -83,7 +82,7 @@
 }
 
 .navigation-list__item {
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro", sans-serif;
     font-weight: bold;
     font-style: normal;
     color: #ec1e79;
@@ -91,8 +90,54 @@
     text-transform: uppercase;
 }
 
-.navigation-list__item:hover {
+.navigation-list__link {
+    display: block;
+    text-decoration: none;
+    color: #ec1e79;
+}
+
+.navigation-list__item-img--black svg * {
+    stroke: #000;
+}
+
+.navigation-list__item-img--feed {
+    background-image: url(/images/nav/nav_sprite.png);
+    background-position: -0px -0px;
+    width: 21px;
+    height: 19px;
+}
+
+.navigation-list__item-img--wallet {
+    background-image: url(/images/nav/nav_sprite.png);
+    background-position: -0px -54px;
+    width: 19px;
+    height: 16px;
+}
+
+.navigation-list__item:hover .navigation-list__item-img--feed {
+    background-image: url(/images/nav/nav_sprite.png);
+    background-position: -0px -19px;
+    width: 21px;
+    height: 19px;
+}
+
+.navigation-list__item:hover .navigation-list__item-img--wallet {
+    background-position: -0px -38px;
+}
+
+.navigation-list__link:hover {
     color: #000;
+}
+
+.navigation-list__item:hover .navigation-list__item-img svg * {
+    stroke: #000;
+}
+
+.navigation-list__item-img--wallet-black {
+    background-image: url(/images/nav/nav_sprite.png);
+    background-position: -0px -38px;
+    width: 19px;
+    height: 16px;
 }
 
 .navigation-list__item-text--black {
@@ -103,8 +148,77 @@
     width: 80%;
 }
 
+.top-pic {
+    position: relative;
+    color: #ffffff;
+}
+
+.top-pic__picture:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(59, 101, 130, .5);
+}
+
+.top-pic__text {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 49px;
+}
+
+.description-company {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.description-company__title {
+    font-weight: bold;
+}
+
+.description-company__list {
+    list-style-type: none;
+}
+
+.description-company__list-item:before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    background-color: #ec1e79;
+    width: 3px;
+    height: 3px;
+}
+
+.sale-block {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.sale-block__link {
+    font-weight: bold;
+}
+
+.partners__title {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 49px;
+    text-transform: uppercase;
+}
+
+.partners__list {
+    list-style-type: none;
+}
+
 .breadcrumbs {
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro", sans-serif;
     font-weight: 300;
     font-style: italic;
     color: #f1579b;
@@ -120,7 +234,7 @@
 }
 
 .title {
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 49px;
@@ -136,13 +250,13 @@
     width: 250px;
 }
 
-.price-block__item-top-picture {
+.price-block__top-picture {
     position: relative;
     width: 250px;
     height: 153px;
 }
 
-.price-block__item-top-picture:before {
+.price-block__top-picture:before {
     content: '';
     width: 100%;
     height: 100%;
@@ -152,23 +266,23 @@
     background-color: rgba(39, 39, 62, .851);
 }
 
-.price-block__item-top-text {
-    font-family: "Gotham Pro";
+.price-block__top-text {
+    font-family: "Gotham Pro", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 24px;
     color: #5dd1f8;
 }
 
-.price-block__item-bottom-price {
-    font-family: "Gotham Pro";
+.price-block__bottom-price {
+    font-family: "Gotham Pro", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 18px;
 }
 
-.price-block__item-bottom-description {
-    font-family: "Gotham Pro";
+.price-block__bottom-description {
+    font-family: "Gotham Pro", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 14px;
@@ -176,7 +290,6 @@
 
 .footer {
     width: 100%;
-    height: 76px;
     background-color: #27273e;
 }
 
@@ -185,7 +298,7 @@
 }
 
 .footer-description {
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 14px;
@@ -198,7 +311,7 @@
 }
 
 .footer-social-text {
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 14px;
@@ -210,11 +323,66 @@
 }
 
 .footer-social-list__item {
-    background-image: url(../images/footer-icons/ellipse.svg);
+    border-radius: 50%;
+    background-color: rgb(212, 212, 216);
+    width: 20px;
+    height: 20px;
+}
+
+.footer-social-list__item--vk {
+    background-image: url(/images/footer-icons/vk.png);
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.footer-social-list__item--fb {
+    background-image: url(/images/footer-icons/fb.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.footer-social-list__item--google {
+    background-image: url(/images/footer-icons/google.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.footer-social-list__item--twitter {
+    background-image: url(/images/footer-icons/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.footer-social-list__item--mail {
+    background-image: url(/images/footer-icons/mail.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .footer-social-list__item:hover {
-    background-image: url(../images/footer-icons/ellipse_pink.svg);
-    background-repeat: no-repeat;
+    background-color: rgb(236, 30, 121);
+}
+
+.feed-icon {
+    background-position: -0px -0px;
+    width: 21px;
+    height: 19px;
+}
+
+.feed-icon-black {
+    background-position: -0px -19px;
+    width: 21px;
+    height: 19px;
+}
+
+.wallet-icon {
+    background-position: -0px -38px;
+    width: 19px;
+    height: 16px;
+}
+
+.wallet-icon-pink {
+    background-position: -0px -54px;
+    width: 19px;
+    height: 16px;
 }

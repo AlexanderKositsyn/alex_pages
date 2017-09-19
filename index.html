@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Prices</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <div class="header-logo"> <img src="images/logo-fig.png" alt="Логотип компании"> </div>
+                <div class="header-logo"> <img src="/images/logo-fig.png" alt="Логотип компании"> </div>
                 <div class="header-contacts">
                     <div class="header-contacts__phone">8 (800) 00-392-10</div>
                     <div class="header-contacts__schedule"><a href="#">График работы</a></div>
@@ -22,7 +22,7 @@
             <div class="container">
                 <ul class="navigation-list">
                     <li class="navigation-list__item">
-                        <div class="navigation-list__item-img">
+                        <div class="navigation-list__item-img navigation-list__item-img--black">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17">
                             <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
                             <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
@@ -43,102 +43,61 @@
                             <path id="main_icon" class="cls-1" d="M28.506,120.991l8.5,15.021H20Z" transform="translate(-19 -120)"/>
                             </svg>
                         </div>
-                        <div class="navigation-list__item-text">Главная</div>
+                        <div class="navigation-list__item-text navigation-list__item-text--black">Главная</div>
                     </li>
                     <li class="navigation-list__item">
-
-                        <div class="navigation-list__item-img"><img src="images/nav/wallet_icon.png" alt="Кошелек"></div>
-                        <div class="navigation-list__item-text navigation-list__item-text--black">Тарифы</div>
+                        <a href='#' class="navigation-list__link">
+                            <div class="navigation-list__item-img navigation-list__item-img--wallet"></div>
+                            <div class="navigation-list__item-text ">Тарифы</div>
+                        </a>
                     </li>
                     <li class="navigation-list__item">
-                        <div class="navigation-list__item-img"><img src="images/nav/feed_icon.png" alt="feed"></div>
-                        <div class="navigation-list__item-text">Отзывы</div>
+                        <a href='#' class="navigation-list__link">
+                            <div class="navigation-list__item-img navigation-list__item-img--feed"></div>
+                            <div class="navigation-list__item-text">Отзывы</div>
+                        </a>
                     </li>
                 </ul>
                 <main class="main">
-                    <div class="breadcrumbs">
-                        <div class="breadcrumbs__item">Главная</div>
-                        <div class="breadcrumbs__item breadcrumbs__item--black">Тарифы</div>
+                    <div class="top-pic">
+                        <div class="top-pic__picture">
+                            <img class="top-pic__img" src="/images/main_page/lbvtv1stskm-breather.jpg" alt="">
+                        </div>
+                        <div class="top-pic__text">О компании</div>
                     </div>
-                    <div class="title">
-                        Тарифы
+                    <div class="description-company">
+                        <p class="description-company__intro">Чтобы работать в дружелюбной и уютной атмосфере, не обязательно снимать офис за баснословные суммы. Обратитесь в наш коворкинг «Воркадиум» и оцените преимущества сотрудничества. </p>
+                        <h3 class="description-company__title">Что мы предлагаем:</h3>
+                        <ul class="description-company__list">
+                            <li class="description-company__list-item">Огромный конференц-зал на 120 человек для проведения массовых переговоров, праздников, совещаний.</li>
+                            <li class="description-company__list-item">Средний конференц-зал на 40 человек.</li>
+                            <li class="description-company__list-item">Уютный зал с круглым столом для совещаний на 12 человек </li>
+                            <li class="description-company__list-item">Пространство для совместной работы. Несколько вариантов – от уютных небольших кабинетов с панорамными окнами и стильных офисов на несколько человек до творческих комнат в стиле лофт с высокими потолками, без привычных атрибутов
+                                офиса.
+                            </li>
+                            <li class="description-company__list-item">Большая библиотека с классической и специальной литературой.</li>
+                            <li class="description-company__list-item">Магазин канцелярии.</li>
+                            <li class="description-company__list-item">Магазин канцелярии.</li>
+                            <li class="description-company__list-item">Зал для неформальных встреч с баром и кальяном.</li>
+                        </ul>
+                        <p class="description-company__outro">Возможность комфортно работать и с удобством организовывать бизнес встречи – это базовая потребность современного делового человека. В уютных залах «Воркадиум» есть все, что нужно для ведения дел – переговорные столы, тумбы и шкафы
+                            для хранения документов, компьютерная техника, а также уютный ресторан для дружеских встреч.</p>
                     </div>
-                    <ul class="price-block">
-                        <li class="price-block__item">
-                            <div class="price-block__item-top">
-                                <div class="price-block__item-top-picture">
-                                    <img src="images/price-block/1qkyck-ul3g-james-pond.jpg" alt="Картинка один">
-                                </div>
-                                <div class="price-block__item-top-text">&laquo;Один&raquo;</div>
-                            </div>
-                            <div class="price-block__item-bottom">
-                                <div class="price-block__item-bottom-price">800 руб/мес <br>или 100 руб/сутки</div>
-                                <div class="price-block__item-bottom-description">Оплачивается рабочее место на 1 человека. Есть возможность оплаты с привязкой к определенному физическому месту. При оплате за год, скидка 30%.</div>
-                            </div>
-                        </li>
-                        <li class="price-block__item">
-                            <div class="price-block__item-top">
-                                <div class="price-block__item-top-picture">
-                                    <img src="images/price-block/1yu0vlmaujo-breather.jpg" alt="Картинка один">
-                                </div>
-                                <div class="price-block__item-top-text">&laquo;Трое&raquo;</div>
-                            </div>
-                            <div class="price-block__item-bottom">
-                                <div class="price-block__item-bottom-price">1 500 руб/месили 200 руб/сутки</div>
-                                <div class="price-block__item-bottom-description">Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как одновременно, так и поочередно. Можно пользоваться офисной техникой и выделенным шкафом для документов.</div>
-                            </div>
-                        </li>
-                        <li class="price-block__item">
-                            <div class="price-block__item-top">
-                                <div class="price-block__item-top-picture">
-                                    <img src="images/price-block/c3v88boorom-bench-accounting.jpg" alt="Картинка один">
-                                </div>
-                                <div class="price-block__item-top-text">«10-10»</div>
-                            </div>
-                            <div class="price-block__item-bottom">
-                                <div class="price-block__item-bottom-price">10 000 руб/мес</div>
-                                <div class="price-block__item-bottom-description">Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%</div>
-                            </div>
-                        </li>
-                        <li class="price-block__item">
-                            <div class="price-block__item-top">
-                                <div class="price-block__item-top-picture">
-                                    <img src="images/price-block/ixhnbgtkjfw-crew.jpg" alt="Картинка один">
-                                </div>
-                                <div class="price-block__item-top-text">VIP «Безлимитна одного»</div>
-                            </div>
-                            <div class="price-block__item-bottom">
-                                <div class="price-block__item-bottom-price">2 500 руб/мес</div>
-                                <div class="price-block__item-bottom-description">В стоимость включена не только оплата рабочего места, но и пользование копировальной техникой, бесплатный кофе или чай в течение дня, возможность использования зала для переговоров при предварительном бронировании 1 раз
-                                    в месяц.</div>
-                            </div>
-                        </li>
-                        <li class="price-block__item">
-                            <div class="price-block__item-top">
-                                <div class="price-block__item-top-picture">
-                                    <img src="images/price-block/pdifhwbftrg-breather.jpg" alt="Картинка один">
-                                </div>
-                                <div class="price-block__item-top-text">VIP «Все включено»
-                                </div>
-                            </div>
-                            <div class="price-block__item-bottom">
-                                <div class="price-block__item-bottom-price">Цена рассчитывается индивидуально</div>
-                                <div class="price-block__item-bottom-description">Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер и копировальный автомат. </div>
-                            </div>
-                        </li>
-                        <li class="price-block__item">
-                            <div class="price-block__item-top">
-                                <div class="price-block__item-top-picture">
-                                    <img src="images/price-block/x5hjlv7nzu4-breather.jpg" alt="Картинка один">
-                                </div>
-                                <div class="price-block__item-top-text">«Переговоры»</div>
-                            </div>
-                            <div class="price-block__item-bottom">
-                                <div class="price-block__item-bottom-price">2 500 руб/час — </div>
-                                <div class="price-block__item-bottom-description">Аренда среднего зала. Есть возможность раннего бронирования конференц-залов со скидкой до 30% при полной предоплате.</div>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="sale-block">
+                        <div class="sale-block__text">Для наших новых клиентов мы предлагаем <a class="sale-block__link" href="#">скидку 50%</a> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</div>
+                    </div>
+                    <div class="partners">
+                        <h2 class="partners__title">Партнёры</h2>
+                        <ul class="partners__list">
+                            <li class="partners__item"><img src="/images/main_page/partners/logo-1.png" alt=""></li>
+                            <li class="partners__item"><img src="/images/main_page/partners/logo-2.png" alt=""></li>
+                            <li class="partners__item"><img src="/images/main_page/partners/logo-3.png" alt=""></li>
+                            <li class="partners__item"><img src="/images/main_page/partners/logo-4.png" alt=""></li>
+                            <li class="partners__item"><img src="/images/main_page/partners/logo-5.png" alt=""></li>
+                            <li class="partners__item"><img src="/images/main_page/partners/logo-6.png" alt=""></li>
+                        </ul>
+
+                    </div>
                 </main>
             </div>
         </div>
@@ -154,13 +113,14 @@
                     <div class="footer-social">
                         <div class="footer-social-text">Наши социальные сети</div>
                         <ul class="footer-social-list">
-                            <li class="footer-social-list__item">
-                                <img src="images/footer-icons/vk.png" alt="">
+                            <li class="footer-social-list__item footer-social-list__item--vk">
+
                             </li>
-                            <li class="footer-social-list__item"><img src="images/footer-icons/fb.png" alt=""></li>
-                            <li class="footer-social-list__item"><img src="images/footer-icons/google.png" alt=""></li>
-                            <li class="footer-social-list__item"><img src="images/footer-icons/twitter.png" alt=""></li>
-                            <li class="footer-social-list__item"><img src="images/footer-icons/mail.png" alt=""></li>
+                            <li class="footer-social-list__item footer-social-list__item--fb"></li>
+                            <li class="footer-social-list__item footer-social-list__item--google"></li>
+                            <li class="footer-social-list__item footer-social-list__item--twitter"></li>
+
+                            <li class="footer-social-list__item footer-social-list__item--mail"></li>
                         </ul>
 
                     </div>
