@@ -101,21 +101,21 @@
 }
 
 .navigation-list__item-img--feed {
-    background-image: url(/images/nav/nav_sprite.png);
+    background-image: url('/images/nav/nav_sprite.png');
     background-position: -0px -0px;
     width: 21px;
     height: 19px;
 }
 
 .navigation-list__item-img--wallet {
-    background-image: url(/images/nav/nav_sprite.png);
+    background-image: url('/images/nav/nav_sprite.png');
     background-position: -0px -54px;
     width: 19px;
     height: 16px;
 }
 
 .navigation-list__item:hover .navigation-list__item-img--feed {
-    background-image: url(/images/nav/nav_sprite.png);
+    background-image: url('/images/nav/nav_sprite.png');
     background-position: -0px -19px;
     width: 21px;
     height: 19px;
@@ -134,7 +134,7 @@
 }
 
 .navigation-list__item-img--wallet-black {
-    background-image: url(/images/nav/nav_sprite.png);
+    background-image: url('/images/nav/nav_sprite.png');
     background-position: -0px -38px;
     width: 19px;
     height: 16px;
@@ -330,19 +330,19 @@
 }
 
 .footer-social-list__item--vk {
-    background-image: url(/images/footer-icons/vk.png);
+    background-image: url('/images/footer-icons/vk.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .footer-social-list__item--fb {
-    background-image: url(/images/footer-icons/fb.png);
+    background-image: url('/images/footer-icons/fb.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .footer-social-list__item--google {
-    background-image: url(/images/footer-icons/google.png);
+    background-image: url('/images/footer-icons/google.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -354,7 +354,7 @@
 }
 
 .footer-social-list__item--mail {
-    background-image: url(/images/footer-icons/mail.png);
+    background-image: url('/images/footer-icons/mail.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
