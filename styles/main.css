@@ -184,6 +184,12 @@ body {
     height: 16px;
 }
 
+.navigation-list__item--active .navigation-list__item-text,
+.navigation-list__item--active svg * {
+    color: #000;
+    stroke: #000;
+}
+
 .navigation-list__item:hover .navigation-list__item-img--feed {
     background-image: url('../images/nav/nav_sprite.png');
     background-position: -0px -19px;
@@ -195,7 +201,7 @@ body {
     background-position: -0px -38px;
 }
 
-.navigation-list__link:hover {
+.navigation-list__item:hover .navigation-list__item-text {
     color: #000;
 }
 
@@ -208,10 +214,6 @@ body {
     background-position: -0px -38px;
     width: 19px;
     height: 16px;
-}
-
-.navigation-list__item-text--black {
-    color: #000;
 }
 
 .main {
@@ -588,7 +590,7 @@ body {
 }
 
 .footer-social__item--twitter {
-    background-image: url(/images/footer-icons/twitter.png);
+    background-image: url(../images/footer-icons/twitter.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
