@@ -70,5 +70,5 @@
 .navigation-list__item--active .navigation-list__item-img {
     color: #000;
     pointer-events: none;
-    background-position: bottom;
+    background-position-y: bottom;
 }
