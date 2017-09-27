@@ -1,0 +1,161 @@
+.main__index {
+    padding-left: 5px;
+}
+
+.main__inner {
+    width: 700px;
+    padding-top: 22px;
+    padding-bottom: 38px;
+}
+
+.top-pic {
+    position: relative;
+    color: #ffffff;
+}
+
+.top-pic__picture {
+    width: 879px;
+    height: 354px;
+    font-size: 0px;
+}
+
+.top-pic__text {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 49px;
+    position: absolute;
+    top: 42%;
+    left: 7%;
+    letter-spacing: -0.5px;
+    padding-left: 4px;
+    text-transform: uppercase;
+}
+
+.description-company {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.description-company__intro {}
+
+.description-company__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.description-company__list {
+    /* list-style-image: url('../images/list-point.png'); */
+    padding-left: 37px;
+    margin-top: 8px;
+}
+
+.description-company__list-item {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.description-company__list-item::before {
+    content: "•";
+    color: #ec1e79;
+    display: inline-block;
+    margin-right: 1px;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+
+.sale-block {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    padding: 12px 50px 11px 29px;
+    background-color: #27273e;
+    color: #fff;
+    margin-bottom: 57px;
+    margin-top: 21px;
+    line-height: 30px;
+    letter-spacing: -0.05px;
+}
+
+.sale-block__link {
+    font-weight: 700;
+    color: #ec1e79;
+}
+
+.partners__title {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 49px;
+    text-transform: uppercase;
+}
+
+.partners__list {
+    list-style-type: none;
+    margin-top: 40px;
+    font-size: 0px;
+    margin-left: -110px;
+}
+
+.partners__item {
+    font-size: 16px;
+    display: inline-block;
+    width: 160px;
+    height: 65px;
+    margin-left: 110px;
+    text-align: center;
+    margin-bottom: 40px;
+    vertical-align: middle;
+}
+
+.partners__pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.partners__pic--winter {
+    background-image: url('../../images/main_page/partners/logo-1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partners__pic--drop {
+    background-image: url('../../images/main_page/partners/logo-2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partners__pic--ahmatova {
+    background-image: url('../../images/main_page/partners/ahmatova-sprite.png');
+    background-position: -8px 0px;
+    background-repeat: no-repeat;
+}
+
+.partners__pic--tishkin {
+    background-image: url('../../images/main_page/partners/logo-4.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partners__pic--pufok {
+    background-image: url('../../images/main_page/partners/logo-5.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partners__pic--avantage {
+    background-image: url('../../images/main_page/partners/logo-6.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partners__pic--ahmatova:hover {
+    background-position: -8px -82px;
+}

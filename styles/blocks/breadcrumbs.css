@@ -1,0 +1,36 @@
+.breadcrumbs {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #f1579b;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 41px;
+    letter-spacing: -0.3px;
+    padding-left: 3px;
+}
+
+.breadcrumbs__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #f1579b;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+}
+
+.breadcrumbs__link:before {
+    content: ' / ';
+    color: #000;
+}
+
+.breadcrumbs__link:first-child:before {
+    display: none;
+}
+
+.breadcrumbs__item--black {
+    color: #000;
+    pointer-events: none;
+    /* cursor: default; */
+}

@@ -1,0 +1,67 @@
+.pagination {
+    width: 790px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pagination__description,
+.pagination__arrow-left,
+.pagination__list,
+.pagination__item,
+.pagination__item-link,
+.pagination__arrow-right {
+    display: inline-block;
+}
+
+.pagination__description {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #656464;
+}
+
+.pagination__arrow-left {
+    width: 6px;
+    height: 10px;
+    background: url('../../images/main_page/pagination/arrow_sprite.png') top left no-repeat;
+}
+
+.pagination__arrow-left:hover {
+    background: url('../../images/main_page/pagination/arrow_sprite.png') bottom left no-repeat;
+}
+
+.pagination__list {}
+
+.pagination__item {
+    text-align: center;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.pagination__item:hover .pagination__item-link {
+    border-radius: 3px;
+    background-color: rgb(39, 39, 62);
+    color: #ec1e79;
+}
+
+.pagination__item-link {
+    display: block;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #221f1f;
+    text-decoration: none;
+}
+
+.pagination__arrow-right {
+    width: 6px;
+    height: 10px;
+    background: url('../../images/main_page/pagination/arrow_sprite.png') top right no-repeat;
+}
+
+.pagination__arrow-right:hover {
+    background: url('../../images/main_page/pagination/arrow_sprite.png') bottom right no-repeat;
+}

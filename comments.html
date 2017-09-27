@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1104">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="styles/base/base.css">
+    <link rel="stylesheet" href="styles/blocks/footer.css">
+    <link rel="stylesheet" href="styles/blocks/header.css">
+    <link rel="stylesheet" href="styles/blocks/sidebar.css">
+    <link rel="stylesheet" href="styles/blocks/callback.css">
+    <link rel="stylesheet" href="styles/blocks/breadcrumbs.css">
+    <link rel="stylesheet" href="styles/blocks/pagination.css">
+    <link rel="stylesheet" href="styles/blocks/comments-page.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container clearfix">
+                <a href="index.html" class="header-logo "> <img  class='header-logo__img' src="images/logo-fig.png " alt="Логотип компании "> </a>
+                <div class="header-contacts ">
+                    <a href="tel:+88000039210" class="header-contacts__phone ">8 (800) 00-392-10</a>
+                    <div class="header-contacts__schedule "><a class="header-contacts__link " href="# ">График работы</a>
+                        <div class="header-contacts__popup">
+                            <div class="header-contacts__popup-wrapper">
+                                <div class="header-contacts__popup-work">пн-вс: 09:00-20:00 </div>
+                                <div class="header-contacts__popup-weekend">обед: 14:00-14:30</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="site-body">
+            <div class="container clearfix">
+                <aside class="sidebar">
+                    <ul class="navigation-list ">
+                        <li class="navigation-list__item ">
+                            <a href='index.html' class="navigation-list__link ">
+                                <div class="navigation-list__item-img  navigation-list__item-img--main">
+                                </div>
+                                <div class="navigation-list__item-text ">Главная</div>
+                            </a>
+                        </li>
+                        <li class="navigation-list__item   ">
+                            <a href='prices.html' class="navigation-list__link ">
+                                <div class="navigation-list__item-img  navigation-list__item-img--prices"></div>
+                                <div class="navigation-list__item-text  ">Тарифы</div>
+                            </a>
+                        </li>
+                        <li class="navigation-list__item ">
+                            <a href='comments.html' class="navigation-list__link navigation-list__item--active">
+                                <div class="navigation-list__item-img navigation-list__item-img--feed"></div>
+                                <div class="navigation-list__item-text ">Отзывы</div>
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+
+                <!-- ОСНОВНОЙ МЕНЯЮЩИЙСЯ КОНТЕНТ -->
+                <main class="main">
+                    <div class="main-comments">
+                        <div class="breadcrumbs ">
+                            <a href="#" class="breadcrumbs__link">
+                                <div class="breadcrumbs__item ">Главная</div>
+                            </a>
+                            <a href="#" class="breadcrumbs__link breadcrumbs__item--black">
+                                <div class="breadcrumbs__item  ">Отзывы</div>
+                            </a>
+                        </div>
+                        <h1 class="title ">
+                            Отзывы
+                        </h1>
+                        <ul class="comments-list">
+                            <li class="comments-list__item clearfix">
+                                <div class="comments-list__photo" style="background-image:url(images/comments/fdfd.png)"></div>
+                                <div class="comments-list__description">
+                                    <div class="comments-list__date">12.10.2016</div>
+                                    <div class="comments-list__name">Олег Павлов</div>
+                                    <div class="comments-list__text">Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров.
+                                        Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить
+                                        меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более
+                                        вкусного, чтобы можно было угощать начальство.</div>
+                                </div>
+                            </li>
+                            <li class="comments-list__item clearfix">
+                                <div class="comments-list__photo" style="background-image:url(images/comments/logo-fig.png)"></div>
+                                <div class="comments-list__description">
+                                    <div class="comments-list__date">01.02.2016</div>
+                                    <div class="comments-list__name">Эрнест Изиль</div>
+                                    <div class="comments-list__text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то,
+                                        что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары.
+                                        Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота
+                                        и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая
+                                        полученные преимущества, все отлично!</div>
+                                </div>
+                            </li>
+                            <li class="comments-list__item clearfix">
+                                <div class="comments-list__photo" style="background-image:url(images/comments/swcnamirzyc-danielle-marroquin.png)"></div>
+                                <div class="comments-list__description">
+                                    <div class="comments-list__date">22.12.2015</div>
+                                    <div class="comments-list__name">Елена Сургай</div>
+                                    <div class="comments-list__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически
+                                        нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают
+                                        такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить
+                                        время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать
+                                        филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом
+                                        :) </div>
+                                </div>
+                            </li>
+                            <li class="comments-list__item clearfix">
+                                <div class="comments-list__photo" style="background-image:url(images/comments/vcvb.png)"></div>
+                                <div class="comments-list__description">
+                                    <div class="comments-list__date">14.08.2015</div>
+                                    <div class="comments-list__name">Наталья Осадчая</div>
+                                    <div class="comments-list__text">Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости
+                                        все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие
+                                        договора. Единственное пожелание – сделайте еще несколько переговорных комнат на
+                                        10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pagination">
+                            <div class="pagination__description">Страница 1 из 7</div>
+                            <a href="#" class="pagination__arrow-left"></a>
+                            <ul class="pagination__list">
+                                <li class="pagination__item pagination__item--active"><a class="pagination__item-link" href="#">1</a></li>
+                                <li class="pagination__item"><a class="pagination__item-link" href="#">2</a></li>
+                                <li class="pagination__item"><a class="pagination__item-link" href="#">3</a></li>
+                                <li class="pagination__item"><a class="pagination__item-link" href="#">4</a></li>
+                                <li class="pagination__item"><a class="pagination__item-link" href="#">5</a></li>
+                                <li class="pagination__item"><a class="pagination__item-link" href="#">6</a></li>
+                                <li class="pagination__item"><a class="pagination__item-link" href="#">7</a></li>
+                            </ul>
+                            <a href="#" class="pagination__arrow-right"></a>
+                        </div>
+
+                        <!-- Форма обратной связи -->
+                        <div class="callback">
+                            <div class="callback__wrapper">
+                                <div class="callback__title">Оставить отзыв</div>
+                                <form action="" class="form">
+                                    <div class="form__text-area clearfix">
+                                        <div class="form__text-left"><label for="username" class="form__text-label">Ваше имя</label>
+                                            <input class="form__text-input" type="text" name="" id="username" placeholder="Андрей">
+                                        </div>
+                                        <div class="form__text-right"><label for="profile" class="form__text-label">Ссылка на профиль VK</label>
+                                            <input class="form__text-input" type="text" name="" id="profile" placeholder="vk.com/example">
+                                        </div>
+                                        <div class="form__text-middle"><label for="comment-text" class="form__text-label form__text-label--wide">Текст отзыва</label>
+                                            <input class="form__text-input form__text-input--wide" type="text" name="" id="comment-text" placeholder="Мне понравилось">
+                                        </div>
+                                    </div>
+                                    <div class="form__button-area">
+                                        <div class="form__button-left">
+                                            <div class="radio">
+                                                <div class="radio__title">Отображать фото в отзыве?</div>
+                                                <div class="radio__buttons">
+                                                    <label class="radio__label">
+                                                            <input type="radio" name="is-photo" id="" class='radio__input'>
+                                                            <div class="radio__checkbox"></div>
+                                                    </label>
+                                                    <span class="radio__text">Да</span>
+                                                    <label class="radio__label">
+                                                            <input type="radio" name="is-photo" id="" class='radio__input'>
+                                                            <div class="radio__checkbox"></div>
+                                                    </label>
+                                                    <span class="radio__text">Нет</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form__button-right ">
+                                            <button type="submit" class="button-submit">Отправить</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </main>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer ">
+        <div class="container clearfix">
+            <div class="footer-column ">
+                <div class="footer-description ">Сделано с любовью и старанием <br>на курсе «HTML + CSS» в <a href="# " class="footer-description__link ">LoftSchool</a>.
+                    <br>Автор работы: <span class="footer-description__author ">Косицын Александр</span></div>
+            </div>
+            <div class="footer-column footer-column_centered ">
+                <a href="index.html" class="footer-logo "><img class="footer-logo__pic " src="images/logo-fig.png " alt="Логотип компании "></a>
+            </div>
+            <div class="footer-column ">
+                <div class="footer-social ">
+                    <div class="footer-social__text ">Наши социальные сети</div>
+                    <ul class="footer-social__list ">
+                        <li class="footer-social__item footer-social__item--vk ">
+                            <a class="footer-social__link " href="# "></a>
+                        </li>
+                        <li class="footer-social__item footer-social__item--fb ">
+                            <a class="footer-social__link " href="# "></a>
+                        </li>
+                        <li class="footer-social__item footer-social__item--google ">
+                            <a class="footer-social__link " href="# "></a>
+                        </li>
+                        <li class="footer-social__item footer-social__item--twitter ">
+                            <a class="footer-social__link " href="# "></a>
+                        </li>
+
+                        <li class="footer-social__item footer-social__item--mail ">
+                            <a class="footer-social__link " href="# "></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
