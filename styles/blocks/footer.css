@@ -35,13 +35,16 @@
     color: #fff;
 }
 
-.footer-logo {
+.logo--footer {
     text-align: center;
     display: inline-block;
     padding-top: 3px;
+    width: 99px;
 }
 
-.footer-logo__pic {}
+.logo__img {
+    max-width: 100%;
+}
 
 .footer-social {
     float: right;
@@ -73,6 +76,7 @@
     margin-left: 1px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    transition: background-color .5s;
 }
 
 .footer-social__link {

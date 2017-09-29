@@ -43,6 +43,7 @@
 .navigation-list__item-text {
     letter-spacing: 1px;
     padding-top: 2px;
+    width: 70%;
 }
 
 .navigation-list__item-img {

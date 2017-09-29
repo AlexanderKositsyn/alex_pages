@@ -39,6 +39,7 @@
     height: 160px;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     float: left;
     margin-right: 20px;
 }
