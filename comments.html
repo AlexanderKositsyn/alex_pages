@@ -26,10 +26,10 @@
                     <a href="tel:+88000039210" class="header-contacts__phone ">8 (800) 00-392-10</a>
                     <div class="header-contacts__schedule "><a class="header-contacts__link " href="# ">График работы</a>
                         <div class="header-contacts__popup">
-                            <div class="header-contacts__popup-wrapper">
-                                <div class="header-contacts__popup-work">пн-вс: 09:00-20:00 </div>
-                                <div class="header-contacts__popup-weekend">обед: 14:00-14:30</div>
-                            </div>
+
+                            <div class="header-contacts__popup-work">пн-вс: 09:00-20:00 </div>
+                            <div class="header-contacts__popup-weekend">обед: 14:00-14:30</div>
+
 
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                             <div class="pagination__description">Страница 1 из 7</div>
                             <a href="#" class="pagination__arrow-left"></a>
                             <ul class="pagination__list">
-                                <li class="pagination__item pagination__item--active"><a class="pagination__item-link" href="#">1</a></li>
+                                <li class="pagination__item pagination__item--active"><a class="pagination__item-link " href="#">1</a></li>
                                 <li class="pagination__item"><a class="pagination__item-link" href="#">2</a></li>
                                 <li class="pagination__item"><a class="pagination__item-link" href="#">3</a></li>
                                 <li class="pagination__item"><a class="pagination__item-link" href="#">4</a></li>
@@ -142,45 +142,47 @@
 
                         <!-- Форма обратной связи -->
                         <div class="callback">
-                            <div class="callback__wrapper">
-                                <div class="callback__title">Оставить отзыв</div>
-                                <form action="" class="form">
-                                    <div class="form__text-area clearfix">
-                                        <div class="form__text-left"><label for="username" class="form__text-label">Ваше имя</label>
-                                            <input class="form__text-input" type="text" name="" id="username" placeholder="Андрей">
-                                        </div>
-                                        <div class="form__text-right"><label for="profile" class="form__text-label">Ссылка на профиль VK</label>
-                                            <input class="form__text-input" type="text" name="" id="profile" placeholder="vk.com/example">
-                                        </div>
-                                        <div class="form__text-middle"><label for="comment-text" class="form__text-label form__text-label--wide">Текст отзыва</label>
-                                            <input class="form__text-input form__text-input--wide" type="text" name="" id="comment-text" placeholder="Мне понравилось">
-                                        </div>
-                                    </div>
-                                    <div class="form__button-area">
-                                        <div class="form__button-left">
-                                            <div class="radio">
-                                                <div class="radio__title">Отображать фото в отзыве?</div>
-                                                <div class="radio__buttons">
-                                                    <label class="radio__label">
-                                                            <input type="radio" name="is-photo" id="" class='radio__input'>
-                                                            <div class="radio__checkbox"></div>
-                                                    </label>
-                                                    <span class="radio__text">Да</span>
-                                                    <label class="radio__label">
-                                                            <input type="radio" name="is-photo" id="" class='radio__input'>
-                                                            <div class="radio__checkbox"></div>
-                                                    </label>
-                                                    <span class="radio__text">Нет</span>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                        <div class="form__button-right ">
-                                            <button type="submit" class="button-submit">Отправить</button>
-                                        </div>
+                            <div class="callback__title">Оставить отзыв</div>
+                            <form action="" class="form">
+                                <div class="form__text-area clearfix">
+                                    <div class="form__text-left"><label for="username" class="form__text-label">Ваше имя</label>
+                                        <input class="form__text-input" type="text" name="" id="username" placeholder="Андрей">
                                     </div>
-                                </form>
-                            </div>
+                                    <div class="form__text-right"><label for="profile" class="form__text-label">Ссылка на профиль VK</label>
+                                        <input class="form__text-input" type="text" name="" id="profile" placeholder="vk.com/example">
+                                    </div>
+                                    <div class="form__text-middle"><label for="comment-text" class="form__text-label form__text-label--wide">Текст отзыва</label>
+                                        <textarea name="" id="comment-text" class="form__text-input form__text-input--wide" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form__button-area">
+                                    <div class="form__button-left">
+                                        <div class="radio">
+                                            <div class="radio__title">Отображать фото в отзыве?</div>
+                                            <div class="radio__buttons">
+                                                <label class="radio__label">
+                                                            <input type="radio" name="is-photo" id="" class='radio__input' checked>
+                                                            <div class="radio__checkbox"></div>
+                                                            <span class="radio__text">Да</span>
+                                                    </label>
+
+                                                <label class="radio__label">
+                                                            <input type="radio" name="is-photo" id="" class='radio__input'>
+                                                            <div class="radio__checkbox"></div>
+                                                            <span class="radio__text">Нет</span>
+                                                    </label>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form__button-right ">
+                                        <button type="submit" class="button-submit">Отправить</button>
+                                    </div>
+                                </div>
+                            </form>
+
 
                         </div>
                     </div>

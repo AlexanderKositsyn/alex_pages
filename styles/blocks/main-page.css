@@ -11,12 +11,8 @@
 .top-pic {
     position: relative;
     color: #ffffff;
-}
-
-.top-pic__picture {
     width: 879px;
     height: 354px;
-    font-size: 0px;
 }
 
 .top-pic__text {
@@ -38,6 +34,7 @@
     font-style: normal;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 21px;
 }
 
 .description-company__intro {}
@@ -78,7 +75,6 @@
     background-color: #27273e;
     color: #fff;
     margin-bottom: 57px;
-    margin-top: 21px;
     line-height: 30px;
     letter-spacing: -0.05px;
 }

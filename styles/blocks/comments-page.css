@@ -1,5 +1,6 @@
 .main-comments {
-    margin-bottom: 70px;
+    margin-bottom: 69px;
+    padding-top: 41px;
 }
 
 .title {
@@ -7,15 +8,18 @@
     font-weight: 700;
     font-style: normal;
     font-size: 49px;
-    margin-top: 16px;
-    margin-bottom: 41px;
+    margin-bottom: 40px;
     letter-spacing: -1px;
+}
+
+.comments-list {
+    margin-bottom: 39px;
 }
 
 .comments-list__item {
     border-bottom: 2px solid #f5f5f5;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 21px;
 }
 
 .comments-list__item:first-child {
@@ -24,12 +28,14 @@
 
 .comments-list__item:last-child {
     border-bottom: none;
+    padding-bottom: 0;
 }
 
 .comments-list__photo {
     border-radius: 50%;
     background-color: rgb(207, 216, 220);
     width: 160px;
+    /* max-width: 160px; */
     height: 160px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -48,7 +54,7 @@
     font-style: normal;
     font-size: 14px;
     color: #656464;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .comments-list__name {
@@ -57,7 +63,7 @@
     font-style: normal;
     font-size: 18px;
     color: #221f1f;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
 }
 
 .comments-list__text {
@@ -65,5 +71,6 @@
     font-weight: 300;
     font-style: normal;
     font-size: 18px;
+    line-height: 30px;
     color: #221f1f;
 }

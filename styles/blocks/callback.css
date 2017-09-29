@@ -6,7 +6,7 @@
     font-size: 14px;
     color: #221f1f;
     width: 700px;
-    padding: 50px;
+    padding: 43px 70px 49px;
 }
 
 .callback__wrapper {
@@ -20,13 +20,14 @@
     font-style: normal;
     font-size: 49px;
     color: #221f1f;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 }
 
 .form {}
 
 .form__text-area {
     margin-left: -20px;
+    margin-bottom: 18px;
 }
 
 .form__text-left {
@@ -45,7 +46,7 @@
     width: 100%;
     float: left;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-top: 16px;
 }
 
 .form__text-label {
@@ -55,11 +56,17 @@
 }
 
 .form__text-input {
+    padding: 6px 10px;
     border: none;
     width: 270px;
     height: 45px;
     display: inline-block;
     border: 1px solid transparent;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #221f1f;
 }
 
 .form__text-input::-webkit-input-placeholder {
@@ -90,13 +97,19 @@
 .radio {}
 
 .radio__title {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 
 .radio__buttons {}
 
 .radio__label {
     position: relative;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.radio__label:last-child {
+    margin-right: 0;
 }
 
 .radio__checkbox::before {
@@ -121,6 +134,7 @@
     display: inline-block;
     vertical-align: middle;
     position: relative;
+    margin-right: 4px;
 }
 
 .radio__input {
@@ -144,15 +158,20 @@
 }
 
 .button-submit {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-transform: uppercase;
     color: #d4d4d8;
     font-size: 12px;
-    font-weight: 700;
     border-radius: 3px;
     background-color: rgb(39, 39, 62);
     width: 139px;
-    height: 45px;
+    height: 44px;
     border: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+    display: inline-block;
 }
 
 .form__text-label--wide {
@@ -162,6 +181,7 @@
 
 .form__text-input--wide {
     width: 560px;
+    max-width: 560px;
     height: 90px;
 }
 

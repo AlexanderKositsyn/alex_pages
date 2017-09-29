@@ -20,7 +20,11 @@
     color: #ec1e79;
     font-size: 12px;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
+}
+
+.navigation-list__item:last-child {
+    margin-bottom: 0px;
 }
 
 .navigation-list__link {
@@ -33,7 +37,6 @@
 .navigation-list__item-text {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 14px;
     transition: color .5s, background-position .5s;
 }
 
@@ -45,6 +48,7 @@
 .navigation-list__item-img {
     width: 19px;
     height: 19px;
+    margin-right: 14px;
 }
 
 .navigation-list__link:hover .navigation-list__item-img,

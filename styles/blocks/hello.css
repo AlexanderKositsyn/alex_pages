@@ -18,18 +18,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 182px;
     width: 200px;
 }
 
 .hello__logo {
-    height: 100px;
+    height: 96px;
     width: 160px;
     margin: 0 auto;
     background-image: url(../../images/logo-fig.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .hello__text {
@@ -39,7 +38,7 @@
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .hello__button {
@@ -49,15 +48,17 @@
     font-style: normal;
     font-size: 12px;
     color: #ec1e79;
+    width: 182px;
     height: 44px;
     border: 3px solid #ec1e79;
     background-color: transparent;
-    margin: 0px;
+    margin: 0 auto;
     text-align: center;
     line-height: 38px;
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color .5s, color .5s;
+    letter-spacing: 1px;
 }
 
 .hello__button:hover {

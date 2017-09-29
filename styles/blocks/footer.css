@@ -46,6 +46,7 @@
 .footer-social {
     float: right;
     text-align: left;
+    padding-top: 6px;
 }
 
 .footer-social__text {
@@ -55,7 +56,6 @@
     font-size: 14px;
     color: #fff;
     margin-bottom: 8px;
-    padding-top: 6px;
     margin-right: 0px;
 }
 
@@ -71,6 +71,8 @@
     display: inline-block;
     margin-right: 5px;
     margin-left: 1px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .footer-social__link {
@@ -81,32 +83,22 @@
 
 .footer-social__item--vk {
     background-image: url('../../images/footer-icons/vk.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .footer-social__item--fb {
     background-image: url('../../images/footer-icons/fb.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .footer-social__item--google {
     background-image: url('../../images/footer-icons/google.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .footer-social__item--twitter {
     background-image: url('../../images/footer-icons/twitter.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .footer-social__item--mail {
     background-image: url('../../images/footer-icons/mail.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .footer-social__item:hover {
