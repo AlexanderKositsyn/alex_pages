@@ -42,8 +42,8 @@
     font-style: normal;
     font-family: 'Open Sans';
     font-size: 14px;
-    padding-top: 1px;
-    padding-right: 2px;
+    padding-top: 3px;
+    padding-right: 0px;
     position: relative;
 }
 
@@ -52,6 +52,10 @@
     opacity: 1;
     pointer-events: auto;
     /* animation: zoomInLeft .2s linear; */
+}
+
+.header-contacts__schedule:hover .header-contacts__link {
+    color: #769dcd;
 }
 
 .header-contacts__popup {

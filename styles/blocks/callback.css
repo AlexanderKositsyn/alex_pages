@@ -106,6 +106,7 @@
     position: relative;
     margin-right: 16px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .radio__label:last-child {
