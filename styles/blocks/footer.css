@@ -1,5 +1,5 @@
 .footer {
-    height: 76px;
+    height: 77px;
     padding-top: 11px;
     padding-bottom: 10px;
     background-color: #27273e;
@@ -22,7 +22,6 @@
     color: #fff;
     text-align: left;
     line-height: 18px;
-    padding-left: 3px;
 }
 
 .footer-description__link,
@@ -58,8 +57,7 @@
     font-style: normal;
     font-size: 14px;
     color: #fff;
-    margin-bottom: 8px;
-    margin-right: 0px;
+    margin-bottom: 9px;
 }
 
 .footer-social__list {

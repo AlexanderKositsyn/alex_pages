@@ -4,8 +4,8 @@
 }
 
 .navigation-list {
-    padding-left: 3px;
-    padding-top: 45px;
+    padding-left: 1px;
+    padding-top: 46px;
 }
 
 .navigation-list__item {
@@ -20,7 +20,7 @@
     color: #ec1e79;
     font-size: 12px;
     text-transform: uppercase;
-    margin-bottom: 31px;
+    margin-bottom: 29px;
 }
 
 .navigation-list__item:last-child {

@@ -7,7 +7,6 @@
 .logo--header {
     float: left;
     display: block;
-    padding-left: 2px;
     width: 101px;
 }
 
@@ -18,7 +17,7 @@
 .header-contacts {
     float: right;
     text-align: right;
-    padding-top: 4px;
+    padding-top: 5px;
 }
 
 .header-contacts__link {
@@ -43,7 +42,7 @@
     font-family: 'Open Sans';
     font-size: 14px;
     padding-top: 3px;
-    padding-right: 0px;
+    padding-right: 2px;
     position: relative;
 }
 
