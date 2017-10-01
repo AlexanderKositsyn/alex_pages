@@ -1,4 +1,4 @@
-            .main__index {}
+            .main__main {}
 
             .main__inner {
                 width: 700px;
@@ -15,9 +15,7 @@
             }
 
             .top-pic__text {
-                font-family: "Gotham Pro", sans-serif;
                 font-weight: 700;
-                font-style: normal;
                 font-size: 49px;
                 position: absolute;
                 top: 42%;
@@ -28,11 +26,8 @@
             }
 
             .description-company {
-                font-family: "Gotham Pro", sans-serif;
-                font-weight: 300;
-                font-style: normal;
                 font-size: 18px;
-                line-height: 30px;
+                line-height: 1.7;
                 margin-bottom: 21px;
             }
 
@@ -66,15 +61,12 @@
             }
 
             .sale-block {
-                font-family: "Gotham Pro", sans-serif;
-                font-weight: 300;
-                font-style: normal;
                 font-size: 18px;
                 padding: 12px 50px 11px 29px;
                 background-color: #27273e;
                 color: #fff;
                 margin-bottom: 57px;
-                line-height: 30px;
+                line-height: 1.7;
                 letter-spacing: -0.05px;
             }
 
@@ -84,9 +76,7 @@
             }
 
             .partners__title {
-                font-family: "Gotham Pro", sans-serif;
                 font-weight: 700;
-                font-style: normal;
                 font-size: 49px;
                 text-transform: uppercase;
             }
@@ -115,30 +105,32 @@
                 height: 100%;
                 background-repeat: no-repeat;
                 background-image: url('../../images/main_page/partners/partners_sprite.png');
+                filter: grayscale(1);
+                transition: filter .5s;
             }
 
             .partners__pic--winter {
-                background-position: -200px top;
+                background-position: -200px bottom;
             }
 
             .partners__pic--drop {
-                background-position: 18px top;
+                background-position: 18px bottom;
             }
 
             .partners__pic--ahmatova {
-                background-position: -786px top;
+                background-position: -786px bottom;
             }
 
             .partners__pic--tishkin {
-                background-position: -400px top;
+                background-position: -400px bottom;
             }
 
             .partners__pic--pufok {
-                background-position: -988px top;
+                background-position: -988px bottom;
             }
 
             .partners__pic--avantage {
-                background-position: -586px top;
+                background-position: -586px bottom;
             }
 
             .partners__pic--ahmatova:hover,
@@ -147,5 +139,5 @@
             .partners__pic--tishkin:hover,
             .partners__pic--pufok:hover,
             .partners__pic--avantage:hover {
-                background-position-y: bottom;
+                filter: grayscale(0);
             }

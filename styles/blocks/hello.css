@@ -9,9 +9,6 @@
 }
 
 .hello {
-    font-family: "Gotham Pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 14px;
     color: #fff;
     position: absolute;
@@ -28,10 +25,10 @@
     background-image: url(../../images/logo-fig.png);
     background-repeat: no-repeat;
     background-size: contain;
-    /* margin-bottom: 10px; */
 }
 
 .hello__text {
+    font-weight: 700;
     margin: 0 auto;
     width: 160px;
     text-align: center;
@@ -43,18 +40,15 @@
 
 .hello__button {
     display: block;
-    font-family: "Gotham Pro", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 12px;
     color: #ec1e79;
     width: 182px;
-    height: 44px;
     border: 3px solid #ec1e79;
     background-color: transparent;
     margin: 0 auto;
     text-align: center;
-    line-height: 38px;
+    line-height: 3.16666666;
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color .5s, color .5s;

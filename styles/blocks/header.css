@@ -22,12 +22,11 @@
 
 .header-contacts__link {
     color: #a82165;
+    transition: color .5s;
 }
 
 .header-contacts__phone {
-    font-family: "Gotham Pro", sans-serif;
     font-weight: 700;
-    font-style: normal;
     color: #ffffff;
     font-size: 21px;
     /* padding-top: 4px; */
@@ -58,6 +57,9 @@
 }
 
 .header-contacts__popup {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     width: 163px;
     position: absolute;
     background-color: #fff;
@@ -68,9 +70,6 @@
     top: 40px;
     right: 0px;
     opacity: 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     pointer-events: none;
     padding-top: 15px;
     padding-bottom: 15px;

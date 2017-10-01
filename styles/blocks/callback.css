@@ -1,8 +1,5 @@
 .callback {
     background-color: #f5f5f5;
-    font-family: "Gotham Pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     font-size: 14px;
     color: #221f1f;
     width: 700px;
@@ -15,9 +12,7 @@
 }
 
 .callback__title {
-    font-family: "Gotham Pro", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 49px;
     color: #221f1f;
     margin-bottom: 18px;
@@ -62,9 +57,6 @@
     height: 45px;
     display: inline-block;
     border: 1px solid transparent;
-    font-family: "Gotham Pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     font-size: 14px;
     color: #221f1f;
 }
@@ -88,7 +80,6 @@
 
 .form__button-left {
     font-size: 14px;
-    display: ;
     width: 50%;
     display: inline-block;
     vertical-align: top;
@@ -120,6 +111,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    transition: width .3s, height .3s;
 }
 
 .radio__checkbox {
@@ -174,6 +168,11 @@
     cursor: pointer;
     letter-spacing: 2px;
     display: inline-block;
+    transition: background-color .5s;
+}
+
+.button-submit:hover {
+    background-color: #ec1e79;
 }
 
 .form__text-label--wide {
@@ -185,6 +184,7 @@
     width: 560px;
     max-width: 560px;
     height: 90px;
+    resize: none;
 }
 
 .radio__input:checked+.radio__checkbox {

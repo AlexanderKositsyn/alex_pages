@@ -80,6 +80,9 @@ html {
 body {
     margin: 0;
     height: 100%;
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .wrapper {

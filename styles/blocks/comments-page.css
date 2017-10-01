@@ -4,9 +4,7 @@
 }
 
 .title {
-    font-family: "Gotham Pro", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 49px;
     margin-bottom: 40px;
     letter-spacing: -1px;
@@ -50,28 +48,20 @@
 }
 
 .comments-list__date {
-    font-family: "Gotham Pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     font-size: 14px;
     color: #656464;
     margin-bottom: 4px;
 }
 
 .comments-list__name {
-    font-family: "Gotham Pro", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 18px;
     color: #221f1f;
     margin-bottom: 11px;
 }
 
 .comments-list__text {
-    font-family: "Gotham Pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.7;
     color: #221f1f;
 }

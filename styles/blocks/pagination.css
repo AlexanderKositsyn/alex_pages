@@ -64,6 +64,7 @@
     font-size: 14px;
     color: #221f1f;
     text-decoration: none;
+    transition: color .2s;
 }
 
 .pagination__arrow-right {
